@@ -1,0 +1,46 @@
+ 6hthis is face recognition folder 
+here you need to collect face data, train them and recognize the face 
+
+1.first you need to enroll your face 
+this will collect your face 30 
+and save your id and name in database
+the 30 face images will be saved in dataset according to id
+note --> there should a unknown dataset images
+
+to run this code -- 
+give your id and name
+
+2. you have to encode the face encodings 
+this will locate face points and return them
+
+#note 
+before running this code delete the existing file in output file
+
+to run this code --> python encode_faces.py 
+it will generate a encodings.pickle file in output
+
+3. then we have to train the encodings.pickle 
+
+to run the code --> python train_model.py 
+it will generate a two pickle file named recognize and le in output
+
+
+now you have finshed generating a face regn model 
+
+4. we can now recognize the enrolled faces
+
+to run the code -- > python recognition.py
+
+# libraries to install
+
+install python 3.7 from website through custom installation and add to environment variable.
+
+https://medium.com/analytics-vidhya/how-to-install-dlib-library-for-python-in-windows-10-57348ba1117f#:~:text=First%20of%20all%2C%20you%20need%20to%20install%20CMake%20library.&text=Then%2C%20you%20can%20install%20dlib%20library%20using%20pip%20install%20.&text=After%20passing%20enter%2C%20you%20laptop,below%2C%20you%20would%20be%20fine.https://cmake.org/download/  and download latest x64 msi
+follow above link and install cmake and visual studio
+
+pip install dlib.whl
+pip install cmake opencv-python==4.2.0.34 tinydb==3.15.0 face_recognition imutils scikit-learn==0.21 json_minify Flask==2.1.0 flask_cors python-datauri
+
+
+
+if camera didnt open then open windows camera app and give permission to it.

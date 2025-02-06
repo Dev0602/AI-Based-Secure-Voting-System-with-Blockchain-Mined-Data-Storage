@@ -1,0 +1,10 @@
+pip install flask
+pip install flask_cors
+pip install imutils
+pip install tinydb==3.15.0
+pip install opencv-python==4.1.1.26
+pip install scikit-learn==0.21
+pip install python-datauri
+
+pip install dlib.whl
+pip install face_recognition

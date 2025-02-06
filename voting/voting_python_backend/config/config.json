@@ -1,0 +1,44 @@
+{
+	// text to speech engine language and speech rate
+	"language": "english-us",
+	"rate": 175,
+
+	// path to the dataset directory
+	"dataset_path": "dataset",
+
+	// school/university code for the class
+	"class": "PROJECT",
+
+	"class2": "MATHS",
+
+	// timing of the class
+	"timing": "15:37",
+	"timing2": "15:37",
+
+	// number of face detections before actually saving the faces to
+	// disk
+	"n_face_detection": 30,
+	
+	// number of images required per person in the dataset
+	"face_count": 30,
+
+	// maximum time limit (in seconds) to take the attendance once
+	// the class has started
+	"max_time_limit": 30,	
+	"max_time_limit2": 60,
+
+	// number of consecutive recognitions to be made to mark a person
+	// recognized
+	"consec_count": 10,
+
+	// path to the database
+	"db_path": "database/attendance.json",
+
+	// paths to the encodings, recognizer, and label encoder
+	"encodings_path": "output/encodings.pickle",
+	"recognizer_path": "output/recognizer.pickle",
+	"le_path": "output/le.pickle",
+
+	// dlib face detection to be used
+	"detection_method": "hog"
+}

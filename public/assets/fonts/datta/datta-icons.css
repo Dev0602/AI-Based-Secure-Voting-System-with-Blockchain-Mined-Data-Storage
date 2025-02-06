@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "pct";
+  src:url("fonts/pct.eot");
+  src:url("fonts/pct.eot?#iefix") format("embedded-opentype"),
+    url("fonts/pct.woff") format("woff"),
+    url("fonts/pct.ttf") format("truetype"),
+    url("fonts/pct.svg#pct") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: local('Poppins-Bold'),
+   url("fonts/Poppins-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Black';
+  src: local('Poppins-Black'),
+   url("fonts/Poppins-Black.ttf") format('truetype');
+}
+
+ @font-face {
+  font-family: 'Poppins-SemiBold';
+  src: local('Poppins-SemiBold'),
+   url("fonts/Poppins-SemiBold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: local('Poppins-Regular'),
+   url("fonts/Poppins-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: local('Poppins-Medium'),
+   url("fonts/Poppins-Medium.ttf") format('truetype');
+}
+
+
+[data-icon]:before {
+  font-family: "pct" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="pct-"]:before,
+[class*=" pct-"]:before {
+  font-family: "pct" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.pct-arrow1:before {
+  content: "\61";
+}
+.pct-arrow2:before {
+  content: "\62";
+}
+.pct-arrow3:before {
+  content: "\63";
+}
+.pct-arrow4:before {
+  content: "\64";
+}
+.pct-chat1:before {
+  content: "\65";
+}
+.pct-chat2:before {
+  content: "\66";
+}
+.pct-chat3:before {
+  content: "\67";
+}
+.pct-chat4:before {
+  content: "\68";
+}
+.pct-loader1:before {
+  content: "\69";
+}
+.pct-arrow-sharp1:before {
+  content: "\6a";
+}
+.pct-arrow-sharp2:before {
+  content: "\6b";
+}
+.pct-arrow-sharp3:before {
+  content: "\6c";
+}
+.pct-arrow-sharp4:before {
+  content: "\6d";
+}

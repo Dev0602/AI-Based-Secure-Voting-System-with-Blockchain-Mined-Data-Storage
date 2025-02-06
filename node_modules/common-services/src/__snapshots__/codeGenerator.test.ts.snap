@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`codeGenerator should work 1`] = `
+Object {
+  "code": "S",
+  "logCalls": Array [
+    Array [
+      "debug",
+      "↪️ - Code generation service Initialized!",
+    ],
+    Array [
+      "debug",
+      "↪️ - Generated a new code:",
+      "S",
+    ],
+  ],
+  "randomCalls": Array [
+    Array [],
+    Array [],
+    Array [],
+    Array [],
+    Array [],
+    Array [],
+  ],
+}
+`;
